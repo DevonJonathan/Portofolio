@@ -44,7 +44,6 @@ table {
     object-fit: cover;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     border: 5px solid #fff;
-    /* transform: rotate(4deg); <-- Hapus baris ini */
     display: block;
     margin: 0 auto;
 }
@@ -77,6 +76,16 @@ table {
     text-decoration: none;
     font-weight: 600;
 }
+
+/* Tambahan CSS untuk gambar pratinjau proyek */
+.project-preview {
+    width: 100%; /* Lebar gambar akan 100% dari kolomnya */
+    height: auto; /* Tinggi akan menyesuaikan agar tidak terdistorsi */
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Mengatur gaya pada bagian Kontak */
 .contact {
